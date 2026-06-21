@@ -5,8 +5,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
 import { Phone, MapPin, Clock, MessageCircle, Star, ChevronRight } from 'lucide-react';
-import DiamondRing from './DiamondRing';
-
+import DiamondRing from './DiamondRing.js';
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
